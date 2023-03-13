@@ -3,6 +3,10 @@ import HomeView from '../views/HomeView.vue'
 import Register from '../components/Register.vue'
 import Additems from '../components/Additems.vue'
 import Edititems from '../components/Edititems.vue'
+import Eventful from '../components/Eventful.vue'
+import Singleitem from '../components/Singleitem.vue'
+
+
 
 
 
@@ -26,6 +30,16 @@ const routes = [
     path: '/edititems',
     name: 'Edititems',
     component: Edititems
+  },
+  {
+    path: '/eventful',
+    name: 'Eventful',
+    component: Eventful
+  },
+  {
+    path: '/singleitem',
+    name: 'Singleitem',
+    component: Singleitem
   },
 
 ]

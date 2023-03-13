@@ -26,7 +26,7 @@
             <div class="mt-5 text-center">
                 <button type="submit"
                     class="border-2 border-indigo-700 bg-indigo-700 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-indigo-700 font-semibold">
-                    <router-link to="/">
+                    <router-link to="Singleitem">
                         Update
                     </router-link>
                 </button>

@@ -17,6 +17,11 @@ import Footer from '@/components/Footer.vue'
 import Register from '@/components/Register.vue'
 import Additems from '@/components/Additems.vue'
 import Edititems from '@/components/Edititems.vue'
+import Eventful from '@/components/Eventful.vue'
+import Singleitem from '@/components/Singleitem.vue'
+
+
+
 
 
 
@@ -28,6 +33,8 @@ export default {
     Register,
     Additems,
     Edititems,
+    Eventful,
+    Singleitem,
 
   },
 }
