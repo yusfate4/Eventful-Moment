@@ -1,13 +1,13 @@
 <template>
     <div class="">
-        <div class="flex justify-between p-12">
+        <div class="flex justify-between p-12 flex-wrap">
             <div>
                 <h1 class="font-bold text-2xl">Welcome John Doe,</h1>
                 <p class="text-xs w-100 mt-2">Here are items in your eventful moment bucket.</p>
             </div>
             <div class="text-center">
                 <button type="submit"
-                    class="border-2 w-100 border-indigo-700  bg-indigo-700 text-white px-5 py-2 mx-auto rounded-md hover:bg-transparent hover:text-indigo-700">
+                    class="border-2 w-100 border-blue-500  bg-blue-500 text-white px-5 py-2 mx-auto rounded-md hover:bg-transparent hover:text-blue-500">
                     <router-link to="Additems">
                         Add items
                     </router-link>
@@ -172,9 +172,19 @@
 
 
 
+
                     </div>
                 </div>
             </section>
+
+            <div class="mt-5 mb-20 text-center">
+                <button type="submit"
+                    class="border-2 border-blue-500 bg-blue-500 text-white py-2 w-80 my-2 mx-auto rounded-md hover:bg-transparent hover:text-blue-500 ">
+                    <router-link to="/">
+                        Load More
+                    </router-link>
+                </button>
+            </div>
         </div>
 
     </div>

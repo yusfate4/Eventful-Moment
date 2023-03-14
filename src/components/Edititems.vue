@@ -19,13 +19,13 @@
                     class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" /> -->
                 <textarea
                     placeholder="Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real."
-                    class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-0 focus:border-gray-600"
+                    class="w-full h-60 px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-0 focus:border-gray-600"
                     rows="4"></textarea>
             </div>
 
             <div class="mt-5 text-center">
                 <button type="submit"
-                    class="border-2 border-indigo-700 bg-indigo-700 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-indigo-700 font-semibold">
+                    class="border-2 border-blue-500 bg-blue-500 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-blue-500 font-semibold">
                     <router-link to="Singleitem">
                         Update
                     </router-link>

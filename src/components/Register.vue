@@ -9,24 +9,24 @@
         <label for="Fullname" class="block text-base mb-2">Enter your Full name</label>
         <input type="text" id="fullname"
           class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600"
-          placeholder="Enter your full name..." />
+    required />
       </div>
       <div class="mt-6">
         <label for="email" class="block text-base mb-2">Email</label>
         <input type="text" id="email"
           class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600"
-          placeholder="Enter Email..." />
+        required  />
       </div>
       <div class="mt-6">
         <label for="password" class="block text-base mb-2">Password</label>
         <input type="password" id="password"
           class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600"
-          placeholder="Enter Password..." />
+          required />
       </div>
 
-      <div class="mt-5 text-center">
+      <div class="mt-5 mb-20 text-center">
         <button type="submit"
-          class="border-2 border-indigo-700 bg-indigo-700 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-indigo-700 font-semibold">
+          class="border-2 border-blue-500 bg-blue-500 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-blue-500 ">
           <router-link to="/">
             Create
           </router-link>

@@ -17,14 +17,14 @@
                 <!-- <input type="text" id="details"
                     class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" /> -->
                 <textarea
-                    class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-0 focus:border-gray-600"
+                    class="w-full h-60 px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-0 focus:border-gray-600"
                     rows="4"></textarea>
             </div>
 
             <div class="mt-5 text-center">
                 <button type="submit"
-                    class="border-2 border-indigo-700 bg-indigo-700 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-indigo-700 font-semibold">
-                    <router-link to="Edititems">
+                    class="border-2 border-blue-500 bg-blue-500 text-white py-2 w-2/4 my-2 mx-auto rounded-md hover:bg-transparent hover:text-blue-500">
+                    <router-link to="Eventful">
                         Save
                     </router-link>
                 </button>

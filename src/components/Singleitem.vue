@@ -9,7 +9,8 @@
         </div>
 
         <div class="flex flex-col justify-between flex-wrap p-12 text-sm w-full">
-            <p class="mb-8 w-full">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not
+            <p class="mb-8 w-full">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text.
+                “It’s not
                 Latin, though
                 it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its
                 ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it
@@ -37,18 +38,18 @@
                 reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at
                 a glance it looks pretty real.</p>
         </div>
-        <div class="px-12 pb-28">
+        <div class="flex-wrap px-12 pb-28">
             <button type="submit"
-                class="border-2 w-100  border-emerald-700 bg-emerald-500 text-white px-14 py-2 mx-auto rounded-md hover:bg-transparent hover:text-emerald-700">
+                class="border-2 w-100 border-emerald-700 bg-emerald-500 text-white px-14 py-2 mx-auto rounded-md hover:bg-transparent hover:text-emerald-700">
                 <router-link to="Edititems">
                     Edit
                 </router-link>
             </button>
 
             <button type="submit"
-                class="border-2 w-100 ml-8 border-yellow-700  bg-yellow-700 text-white px-14 py-2 mx-auto rounded-md hover:bg-transparent hover:text-yellow-600">
+                class="border-2 w-100 ml-12 mt-8 border-yellow-700  bg-yellow-700 text-white px-14 py-2  mx-auto rounded-md hover:bg-transparent hover:text-yellow-600">
                 <router-link to="#">
-                   Delete
+                    Delete
                 </router-link>
             </button>
         </div>
