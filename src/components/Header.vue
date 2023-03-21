@@ -5,19 +5,17 @@
 
     <ul class="md:flex md:items-center text-center md:px-0 px-10 md:pb pb-6 mr-10 mt-4">
       <li class="text-white">
-        <a href="#" class="text-x hover:text-orange-300">
+        <router-link to="/" class="text-x hover:text-orange-300">
+
+          Login
+
+        </router-link>
+        <router-link to="Register" class="text-x ml-4 hover:text-orange-300">
 
 
-          <router-link to="/">
-            Login
-          </router-link>
-        </a>
-        <a href="#" class="text-x ml-4 hover:text-orange-300">
+          Register
 
-          <router-link to="Register">
-            Register
-          </router-link>
-        </a>
+        </router-link>
       </li>
     </ul>
 
